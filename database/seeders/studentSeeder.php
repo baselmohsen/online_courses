@@ -16,6 +16,10 @@ class studentSeeder extends Seeder
     public function run()
     {
 
-        student::factory()->count(100)->create();
+    student::create([
+            "name" => $this->faker->name(),
+            'email' => $this->faker->unique()->safeEmail(),
+    
+        ]); 
     }
 }
