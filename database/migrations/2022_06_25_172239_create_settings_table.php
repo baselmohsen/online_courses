@@ -14,8 +14,9 @@ class CreateSettingsTable extends Migration
     public function up()
     {
         Schema::create('settings', function (Blueprint $table) {
-            $table->bigIncrements('id');            
+        $table->bigIncrements('id');            
              $table->string('name');
+             $table->string('email');
              $table->string('logo');
              $table->string('favicon');
              $table->string('city');
@@ -26,6 +27,7 @@ class CreateSettingsTable extends Migration
              $table->string('face');
              $table->string('twitter');
              $table->string('insta');
+
 
             $table->timestamps();
         });
