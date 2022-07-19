@@ -44,7 +44,7 @@ Route::name('Admin.')->prefix('dashboard')->group(function(){
     Route::get('/login',[AuthController::class,'login'])->name('login') ;
     Route::post('/dologin',[AuthController::class,'dologin'])->name('dologin') ;
 
-Route::middleware('admin:admin')->group(function(){
+// Route::middleware('admin:admin')->group(function(){
      
   
     
@@ -104,6 +104,6 @@ Route::middleware('admin:admin')->group(function(){
 
 
 
-});
+// });
    
 });
