@@ -16,10 +16,67 @@ class studentSeeder extends Seeder
     public function run()
     {
 
-    student::create([
-            "name" => $this->faker->name(),
-            'email' => $this->faker->unique()->safeEmail(),
-    
-        ]); 
+         student::create([
+            "name" => 'basel mohsen',
+            'email' => 'baselmohsen@gmail.com',
+        ]);
+        student::create([
+            "name" => 'basel mohsen',
+            'email' => 'baselmohsen@gmail.com',
+        ]);
+        student::create([
+            "name" => 'basel mohsen',
+            'email' => 'baselmohsen@gmail.com',
+        ]);
+        student::create([
+            "name" => 'basel mohsen',
+            'email' => 'baselmohsen@gmail.com',
+        ]);
+        student::create([
+            "name" => 'basel mohsen',
+            'email' => 'baselmohsen@gmail.com',
+        ]);
+        student::create([
+            "name" => 'basel mohsen',
+            'email' => 'baselmohsen@gmail.com',
+        ]);
+        student::create([
+            "name" => 'basel mohsen',
+            'email' => 'baselmohsen@gmail.com',
+        ]);
+        student::create([
+            "name" => 'basel mohsen',
+            'email' => 'baselmohsen@gmail.com',
+        ]);
+        student::create([
+            "name" => 'basel mohsen',
+            'email' => 'baselmohsen@gmail.com',
+        ]);
+        student::create([
+            "name" => 'basel mohsen',
+            'email' => 'baselmohsen@gmail.com',
+        ]);   student::create([
+            "name" => 'basel mohsen',
+            'email' => 'baselmohsen@gmail.com',
+        ]);   student::create([
+            "name" => 'basel mohsen',
+            'email' => 'baselmohsen@gmail.com',
+        ]);   student::create([
+            "name" => 'basel mohsen',
+            'email' => 'baselmohsen@gmail.com',
+        ]);   student::create([
+            "name" => 'basel mohsen',
+            'email' => 'baselmohsen@gmail.com',
+        ]);   student::create([
+            "name" => 'basel mohsen',
+            'email' => 'baselmohsen@gmail.com',
+        ]);   student::create([
+            "name" => 'basel mohsen',
+            'email' => 'baselmohsen@gmail.com',
+        ]);   student::create([
+            "name" => 'basel mohsen',
+            'email' => 'baselmohsen@gmail.com',
+        ]);
+
     }
 }
