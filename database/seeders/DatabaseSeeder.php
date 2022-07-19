@@ -24,6 +24,7 @@ class DatabaseSeeder extends Seeder
             UserSeeder::class,
             testmoSeeder::class,
             sitecontent::class,
+            SettingsSeeder::class,
 
         ]);
     }
