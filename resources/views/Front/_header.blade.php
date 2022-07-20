@@ -67,7 +67,7 @@
                                     <a class="nav-link" href="{{ route('Front.contact') }}">Contact</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('admin.cats') }}">admin </a>
+                                    <a class="nav-link" href="{{ route('Admin.cats') }}">admin </a>
                                 </li>
 
                         
